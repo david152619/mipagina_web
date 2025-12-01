@@ -7,6 +7,14 @@
         <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
+
+       <label for="combos">MENU COMBO:</label>
+    <select id="combos" onchange="location.href=this.value">
+    <option value="">-- Selecciona --</option>
+    <option value="#combo1">Combo 1 - Mega Clásico</option>
+    <option value="#combo2">Combo 2 - Mega Doble</option>
+   </select>
+
         <header class="site-header">
             <h1>MEGA BURGUER</h1>
             <p class="subtitle">El tamaño sí importa… y el sabor también</p>
@@ -14,6 +22,8 @@
         <main class="card">
             <section class="card">
                 <h2>COMBO 1 MEGA CLASICO</h2>
+           <img src="imagenes/combo1.1.webp" alt="Combo 1" width="300">
+
                 <p>El Combo 1 incluye nuestra hamburguesa Mega Clásica, preparada con una jugosa carne a la parrilla, queso derretido, lechuga fresca, tomate y nuestra salsa especial de la casa.
                     Acompañada de papas crocantes y una gaseosa bien fría.
                     Perfecto para quienes quieren empezar con un sabor grande, delicioso y sin complicaciones.</p>
@@ -21,13 +31,25 @@
             </section>
             <section class="card">
                 <h2>COMBO 2 MEGA DOBLE</h2>
+                <img src="imagenes/combo2.2.jpg" alt="Combo 2" width="300">
                 <P>El Combo 2 trae nuestra Mega Doble, una hamburguesa con dos carnes jugosas a la parrilla, doble queso derretido, lechuga fresca, tomate y la inconfundible salsa especial de la casa.
                     Incluye papas más grandes y una gaseosa bien fría para acompañar todo ese sabor poderoso.
                      Ideal para quienes quieren una experiencia más intensa y llena de sabor.</P>
                      <a class="btn" href="https://pedidos.bk.com.co/home">BURGUER KING</a>
             </section>
         </main>
-                    <
+            <footer class="site-footer">
+                <h3>CONTACTO</h3>
+
+               <p><strong>Dirección:</strong> Manzana 18 casa 6 la bendicion, Yopal, Casanare</p>
+               <p><strong>Correo:</strong> <a href="mailto:dylan1519@gmil.com">dylan1519@gmil.com</a></p>
+               <p><strong>Teléfono:</strong> <a href="tel:3223597476">3223597476</a></p>
+
+               <a href="https://www.google.com/maps?q=Yopal+Casanare" class="map-btn" target="_blank">
+               Ver en Google Maps
+              </a>
+            </footer>
+                    
 
 
     </body>
